@@ -15,11 +15,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/assets/img/previsaodotempo.jpg);
+    background: url(../img/background.jpeg);
     background-position: center;
     color: #fff;
 }
 
+.container-previsao {
+    background-color: #3498db;
+    opacity: 0.8;
+}
 
 
 /* 480px // Extra small screen
@@ -38,8 +42,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
-        opacity: 0.8;
+
     }
 
     .container-buscar {
@@ -140,8 +143,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
-        opacity: 0.8;
+
     }
 
     .container-buscar {
@@ -244,8 +246,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
-        opacity: 0.8;
+
     }
 
     .container-buscar {
@@ -348,8 +349,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
-        opacity: 0.8;
+
     }
 
     .container-buscar {
@@ -452,8 +452,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
-        opacity: 0.8;
+
     }
 
     .container-buscar {
@@ -556,8 +555,7 @@ body {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
-        opacity: 0.8;
+
     }
 
     .container-buscar {
@@ -653,14 +651,14 @@ body {
 @media(min-width:1600px) {
     .container-previsao {
         border-radius: 20px;
-        width: 40%;
+        width: 35%;
         height: 70%;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        background: #161616;
+        background-color: #3498db;
         opacity: 0.8;
     }
 
@@ -677,11 +675,13 @@ body {
     .container-buscar input {
         width: 80%;
         height: 60px;
-        border-radius: 10px;
+        border-radius: 20px;
         background: #fff;
         font-size: 2rem;
         outline: none;
         padding: 4px;
+        border: none;
+        background-color: #ecf0f1;
     }
 
     .container-buscar button {
